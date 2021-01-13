@@ -32,7 +32,7 @@ const saltRounds = 10;
 require("dotenv").config();
 
 app.use(session({
-  //secret: [rand_key_val, rand_key_val, rand_key_val],
+  secret: ['ST9iSuSp7/Mikx5LcslWTzsyJIs=','HJzn/3ExRH51F1jnF3L/BjBPS6o=','YRzkxDviYAi12HnNct7fMpUn4RE='],
     name: "secretname",
   resave: true,
   cookie: {

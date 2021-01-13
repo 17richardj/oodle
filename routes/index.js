@@ -9,7 +9,7 @@ var router = express.Router();
 var ssn;
 
 router.get('/', function (req, res, next) {
-	return res.render('landing.ejs');
+	res.render('index.ejs');
 });
 
 router.post('/', function (req, res, next)
